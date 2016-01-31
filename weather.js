@@ -5,10 +5,10 @@ $(function() {
     // Put your code here to change the "markup" variable.
     // Don't change any other code in this file. You will be sad.
 
-    var markup = "<p><b>The weather is currently: </b> " + data.currently.summary + " and " + data.currently.temperature + " Degrees</p><p><b>The three day forecast is: </b> </p>" +
-     "<li> <b>Tomorrow: </b>" + data.daily.data[1].summary + "</li>" +
-     "<li> <b>In Two Days: </b>" + data.daily.data[2].summary + "</li>" +
-     "<li> <b>In Three Days: </b>" + data.daily.data[3].summary + "</li>"
+    var markup = "<p><b>The weather is currently: </b> " + data.currently.summary + " and " + data.currently.temperature + " degrees.</p><p><b>The three day forecast is: </b> </p>" +
+     "<li> <b>Tomorrow: </b>" + data.daily.data[1].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees. </li>" +
+     "<li> <b>In Two Days: </b>" + data.daily.data[2].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees.</li>" +
+     "<li> <b>In Three Days: </b>" + data.daily.data[3].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees.</li>"
 
 //data.dailydata[1].summary
  //data.currently.windspeed
