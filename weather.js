@@ -10,8 +10,8 @@ $(function() {
      "<li> <b>In Two Days: </b>" + data.daily.data[2].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees.</li>" +
      "<li> <b>In Three Days: </b>" + data.daily.data[3].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees.</li>"
 
-//data.dailydata[1].summary
- //data.currently.windspeed
+ 
+
     // End of your code
 
     $('.weather-report').html(markup);
