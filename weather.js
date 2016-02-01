@@ -7,10 +7,10 @@ $(function() {
 
     var markup = "<p><b>The weather is currently: </b> " + data.currently.summary + " and " + data.currently.temperature + " degrees.</p><p><b>The three day forecast is: </b> </p>" +
      "<li> <b>Tomorrow: </b>" + data.daily.data[1].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees. </li>" +
-     "<li> <b>In Two Days: </b>" + data.daily.data[2].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees.</li>" +
-     "<li> <b>In Three Days: </b>" + data.daily.data[3].summary + " High: " + data.daily.data[1].temperatureMax + " degrees. Low: " +data.daily.data[1].temperatureMin + " degrees.</li>"
+     "<li> <b>In Two Days: </b>" + data.daily.data[2].summary + " High: " + data.daily.data[2].temperatureMax + " degrees. Low: " +data.daily.data[2].temperatureMin + " degrees.</li>" +
+     "<li> <b>In Three Days: </b>" + data.daily.data[3].summary + " High: " + data.daily.data[3].temperatureMax + " degrees. Low: " +data.daily.data[3].temperatureMin + " degrees.</li>"
 
- 
+
 
     // End of your code
 
